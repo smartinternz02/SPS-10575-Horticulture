@@ -1,0 +1,1966 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0217.1203                               -->
+<workbook original-version='18.1' source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column alias='sweet_potato_area' caption='Crops_area' datatype='string' datatype-customized='true' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_a&quot;'>
+        <calculation class='tableau' formula='&quot;sweet_potato_a&quot;' />
+        <aliases>
+          <alias key='&quot;brinjal_a&quot;' value='brinjal_area' />
+          <alias key='&quot;cabbage_a&quot;' value='cabbage_area' />
+          <alias key='&quot;flower_a&quot;' value='flower_area' />
+          <alias key='&quot;okra_a&quot;' value='okra_area' />
+          <alias key='&quot;onion_a&quot;' value='onion_area' />
+          <alias key='&quot;other_a&quot;' value='other_area' />
+          <alias key='&quot;peas_a&quot;' value='peas_area' />
+          <alias key='&quot;potato_a&quot;' value='potato_area' />
+          <alias key='&quot;sweet_potato_a&quot;' value='sweet_potato_area' />
+          <alias key='&quot;tapioca_a&quot;' value='tapioca_area' />
+          <alias key='&quot;tomato_a&quot;' value='tomato_area' />
+          <alias key='&quot;total_a&quot;' value='total_area' />
+        </aliases>
+        <members>
+          <member alias='brinjal_area' value='&quot;brinjal_a&quot;' />
+          <member alias='flower_area' value='&quot;flower_a&quot;' />
+          <member alias='cabbage_area' value='&quot;cabbage_a&quot;' />
+          <member alias='okra_area' value='&quot;okra_a&quot;' />
+          <member alias='onion_area' value='&quot;onion_a&quot;' />
+          <member alias='peas_area' value='&quot;peas_a&quot;' />
+          <member alias='potato_area' value='&quot;potato_a&quot;' />
+          <member alias='sweet_potato_area' value='&quot;sweet_potato_a&quot;' />
+          <member alias='tapioca_area' value='&quot;tapioca_a&quot;' />
+          <member alias='tomato_area' value='&quot;tomato_a&quot;' />
+          <member alias='other_area' value='&quot;other_a&quot;' />
+          <member alias='total_area' value='&quot;total_a&quot;' />
+        </members>
+      </column>
+      <column alias='sweet_potato_production' caption='Crop_production' datatype='string' datatype-customized='true' name='[area (copy)_181269921317003265]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_p&quot;'>
+        <calculation class='tableau' formula='&quot;sweet_potato_p&quot;' />
+        <aliases>
+          <alias key='&quot;brinjal_p&quot;' value='brinjal_production' />
+          <alias key='&quot;cabbage_p&quot;' value='cabbage_production' />
+          <alias key='&quot;flower_p&quot;' value='flower_production' />
+          <alias key='&quot;okra_p&quot;' value='okra_production' />
+          <alias key='&quot;onion_p&quot;' value='onion_production' />
+          <alias key='&quot;other_p&quot;' value='other_production' />
+          <alias key='&quot;peas_p&quot;' value='peas_production' />
+          <alias key='&quot;potato_p&quot;' value='potato_production' />
+          <alias key='&quot;sweet_potato_p&quot;' value='sweet_potato_production' />
+          <alias key='&quot;tapioca_p&quot;' value='tapioca_production' />
+          <alias key='&quot;tomato_p&quot;' value='tomato_production' />
+          <alias key='&quot;total_p&quot;' value='total_production' />
+        </aliases>
+        <members>
+          <member alias='brinjal_production' value='&quot;brinjal_p&quot;' />
+          <member alias='flower_production' value='&quot;flower_p&quot;' />
+          <member alias='cabbage_production' value='&quot;cabbage_p&quot;' />
+          <member alias='okra_production' value='&quot;okra_p&quot;' />
+          <member alias='onion_production' value='&quot;onion_p&quot;' />
+          <member alias='peas_production' value='&quot;peas_p&quot;' />
+          <member alias='potato_production' value='&quot;potato_p&quot;' />
+          <member alias='sweet_potato_production' value='&quot;sweet_potato_p&quot;' />
+          <member alias='tapioca_production' value='&quot;tapioca_p&quot;' />
+          <member alias='tomato_production' value='&quot;tomato_p&quot;' />
+          <member alias='other_production' value='&quot;other_p&quot;' />
+          <member alias='total_production' value='&quot;total_p&quot;' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='Area &amp; Prod of Veg - All india!Print_Area_MI (AREA_AND_PRODUCTION_OF_VEGETABLES)' inline='true' name='federated.0rut6sy02fdgax177n7bn08l8dgp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='AREA_AND_PRODUCTION_OF_VEGETABLES' name='excel-direct.0t4vcv21jjbe2h1918zbn18iqfrg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Downloads/AREA_AND_PRODUCTION_OF_VEGETABLES.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0t4vcv21jjbe2h1918zbn18iqfrg' name='Area &amp; Prod of Veg - All india' table='[&apos;Area &amp; Prod of Veg - All india$&apos;]' type='table'>
+          <columns gridOrigin='A1:Y11:no:A1:Y11:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='real' name='Brinjal Area (in &apos;000 Hectare)' ordinal='1' />
+            <column datatype='real' name='Brinjal Production (in &apos;000 Tonne)' ordinal='2' />
+            <column datatype='real' name='Cabbage Area (in &apos;000 Hectare)' ordinal='3' />
+            <column datatype='real' name='Cabbage Production (in &apos;000 Tonne)' ordinal='4' />
+            <column datatype='real' name='C.Flower Area (in &apos;000 Hectare)' ordinal='5' />
+            <column datatype='real' name='C.Flower Production (in &apos;000 Tonne)' ordinal='6' />
+            <column datatype='real' name='Okra Area (in &apos;000 Hectare)' ordinal='7' />
+            <column datatype='real' name='Okra Production (in &apos;000 Tonne)' ordinal='8' />
+            <column datatype='real' name='Peas Area (in &apos;000 Hectare)' ordinal='9' />
+            <column datatype='real' name='Peas Production (in &apos;000 Tonne)' ordinal='10' />
+            <column datatype='real' name='Tomato Area (in &apos;000 Hectare)' ordinal='11' />
+            <column datatype='real' name='Tomato Production (in &apos;000 Tonne)' ordinal='12' />
+            <column datatype='real' name='Onion Area (in &apos;000 Hectare)' ordinal='13' />
+            <column datatype='real' name='Onion Production (in &apos;000 Tonne)' ordinal='14' />
+            <column datatype='real' name='Potato Area (in &apos;000 Hectare)' ordinal='15' />
+            <column datatype='real' name='Potato Production (in &apos;000 Tonne)' ordinal='16' />
+            <column datatype='real' name='Sweet Potato Area (in &apos;000 Hectare)' ordinal='17' />
+            <column datatype='real' name='Sweet Potato Production (in &apos;000 Tonne)' ordinal='18' />
+            <column datatype='real' name='Tapioca Area (in &apos;000 Hectare)' ordinal='19' />
+            <column datatype='real' name='Tapioca Production (in &apos;000 Tonne)' ordinal='20' />
+            <column datatype='real' name='Others Area (in &apos;000 Hectare)' ordinal='21' />
+            <column datatype='real' name='Others Production (in &apos;000 Tonne)' ordinal='22' />
+            <column datatype='real' name='Total Area (in &apos;000 Hectare)' ordinal='23' />
+            <column datatype='real' name='Total Production (in &apos;000 Tonne)' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0t4vcv21jjbe2h1918zbn18iqfrg' name='Area &amp; Prod of Veg - All india' table='[&apos;Area &amp; Prod of Veg - All india$&apos;]' type='table'>
+          <columns gridOrigin='A1:Y11:no:A1:Y11:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year' ordinal='0' />
+            <column datatype='real' name='Brinjal Area (in &apos;000 Hectare)' ordinal='1' />
+            <column datatype='real' name='Brinjal Production (in &apos;000 Tonne)' ordinal='2' />
+            <column datatype='real' name='Cabbage Area (in &apos;000 Hectare)' ordinal='3' />
+            <column datatype='real' name='Cabbage Production (in &apos;000 Tonne)' ordinal='4' />
+            <column datatype='real' name='C.Flower Area (in &apos;000 Hectare)' ordinal='5' />
+            <column datatype='real' name='C.Flower Production (in &apos;000 Tonne)' ordinal='6' />
+            <column datatype='real' name='Okra Area (in &apos;000 Hectare)' ordinal='7' />
+            <column datatype='real' name='Okra Production (in &apos;000 Tonne)' ordinal='8' />
+            <column datatype='real' name='Peas Area (in &apos;000 Hectare)' ordinal='9' />
+            <column datatype='real' name='Peas Production (in &apos;000 Tonne)' ordinal='10' />
+            <column datatype='real' name='Tomato Area (in &apos;000 Hectare)' ordinal='11' />
+            <column datatype='real' name='Tomato Production (in &apos;000 Tonne)' ordinal='12' />
+            <column datatype='real' name='Onion Area (in &apos;000 Hectare)' ordinal='13' />
+            <column datatype='real' name='Onion Production (in &apos;000 Tonne)' ordinal='14' />
+            <column datatype='real' name='Potato Area (in &apos;000 Hectare)' ordinal='15' />
+            <column datatype='real' name='Potato Production (in &apos;000 Tonne)' ordinal='16' />
+            <column datatype='real' name='Sweet Potato Area (in &apos;000 Hectare)' ordinal='17' />
+            <column datatype='real' name='Sweet Potato Production (in &apos;000 Tonne)' ordinal='18' />
+            <column datatype='real' name='Tapioca Area (in &apos;000 Hectare)' ordinal='19' />
+            <column datatype='real' name='Tapioca Production (in &apos;000 Tonne)' ordinal='20' />
+            <column datatype='real' name='Others Area (in &apos;000 Hectare)' ordinal='21' />
+            <column datatype='real' name='Others Production (in &apos;000 Tonne)' ordinal='22' />
+            <column datatype='real' name='Total Area (in &apos;000 Hectare)' ordinal='23' />
+            <column datatype='real' name='Total Production (in &apos;000 Tonne)' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y11:no:A1:Y11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brinjal Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Brinjal Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Brinjal Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brinjal Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Brinjal Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Brinjal Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cabbage Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cabbage Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Cabbage Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cabbage Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cabbage Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Cabbage Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C.Flower Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C.Flower Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>C.Flower Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C.Flower Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C.Flower Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>C.Flower Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Okra Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Okra Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Okra Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Okra Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Okra Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Okra Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peas Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peas Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Peas Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peas Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Peas Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Peas Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tomato Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tomato Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Tomato Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tomato Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tomato Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Tomato Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Onion Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Onion Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Onion Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Onion Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Onion Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Onion Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potato Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Potato Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Potato Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potato Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Potato Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Potato Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sweet Potato Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sweet Potato Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Sweet Potato Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sweet Potato Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sweet Potato Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Sweet Potato Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tapioca Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tapioca Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Tapioca Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tapioca Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tapioca Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Tapioca Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Others Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Others Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Others Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Others Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Area (in &apos;000 Hectare)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Area (in &apos;000 Hectare)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Total Area (in &apos;000 Hectare)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Production (in &apos;000 Tonne)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Production (in &apos;000 Tonne)]</local-name>
+            <parent-name>[Area &amp; Prod of Veg - All india]</parent-name>
+            <remote-alias>Total Production (in &apos;000 Tonne)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Brinjal Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Brinjal Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[C.Flower Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Cabbage Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+      <column caption='fllter_of_productions' datatype='real' name='[Calculation_181269921317588994]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Parameters].[area (copy)_181269921317003265]&#13;&#10;WHEN &quot;brinjal_p&quot; THEN [Brinjal Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;flower_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;cabbage_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;okra_p&quot; THEN [Okra Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;onion_p&quot; THEN [Onion Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;peas_p&quot; THEN [Peas Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;potato_p&quot; THEN [Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;sweet_potato_p&quot; THEN [Sweet Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tapioca_p&quot; THEN [Tapioca Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tomato_p&quot; THEN [Tomato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;other_p&quot; THEN [Others Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;total_p&quot; THEN [Total Production (in &apos;000 Tonne)]&#13;&#10;END' />
+      </column>
+      <column caption='filter_of_areas' datatype='real' name='[Calculation_493425670369726467]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN &quot;brinjal_a&quot; THEN [Brinjal Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;flower_a&quot; THEN [C.Flower Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;cabbage_a&quot; THEN [Cabbage Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;okra_a&quot; THEN [Okra Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;onion_a&quot; THEN [Onion Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;peas_a&quot; THEN [Peas Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;potato_a&quot; THEN [Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;sweet_potato_a&quot; THEN [Sweet Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tapioca_a&quot; THEN [Tapioca Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tomato_a&quot; THEN [Tomato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;other_a&quot; THEN [Others Area (in &apos;000 Hectare)] &#13;&#10;WHEN &quot;total_a&quot; THEN [Total Area (in &apos;000 Hectare)]&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Area &amp; Prod of Veg - All india' datatype='table' name='[__tableau_internal_object_id__].[Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_493425670369726467]' derivation='Sum' name='[cum:sum:Calculation_493425670369726467:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+      </column-instance>
+      <column-instance column='[Brinjal Area (in &apos;000 Hectare)]' derivation='Sum' name='[sum:Brinjal Area (in &apos;000 Hectare):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Brinjal Production (in &apos;000 Tonne)]' derivation='Sum' name='[sum:Brinjal Production (in &apos;000 Tonne):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[C.Flower Area (in &apos;000 Hectare)]' derivation='Sum' name='[sum:C.Flower Area (in &apos;000 Hectare):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cabbage Area (in &apos;000 Hectare)]' derivation='Sum' name='[sum:Cabbage Area (in &apos;000 Hectare):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_181269921317588994]' derivation='Sum' name='[sum:Calculation_181269921317588994:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_493425670369726467]' derivation='Sum' name='[sum:Calculation_493425670369726467:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[cum:sum:Calculation_493425670369726467:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Brinjal Area (in &apos;000 Hectare):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Cabbage Area (in &apos;000 Hectare):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:C.Flower Area (in &apos;000 Hectare):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Brinjal Production (in &apos;000 Tonne):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='sweet_potato_area' caption='Crops_area' datatype='string' datatype-customized='true' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_a&quot;'>
+          <calculation class='tableau' formula='&quot;sweet_potato_a&quot;' />
+          <aliases>
+            <alias key='&quot;brinjal_a&quot;' value='brinjal_area' />
+            <alias key='&quot;cabbage_a&quot;' value='cabbage_area' />
+            <alias key='&quot;flower_a&quot;' value='flower_area' />
+            <alias key='&quot;okra_a&quot;' value='okra_area' />
+            <alias key='&quot;onion_a&quot;' value='onion_area' />
+            <alias key='&quot;other_a&quot;' value='other_area' />
+            <alias key='&quot;peas_a&quot;' value='peas_area' />
+            <alias key='&quot;potato_a&quot;' value='potato_area' />
+            <alias key='&quot;sweet_potato_a&quot;' value='sweet_potato_area' />
+            <alias key='&quot;tapioca_a&quot;' value='tapioca_area' />
+            <alias key='&quot;tomato_a&quot;' value='tomato_area' />
+            <alias key='&quot;total_a&quot;' value='total_area' />
+          </aliases>
+        </column>
+        <column alias='sweet_potato_production' caption='Crop_production' datatype='string' datatype-customized='true' name='[area (copy)_181269921317003265]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_p&quot;'>
+          <calculation class='tableau' formula='&quot;sweet_potato_p&quot;' />
+          <aliases>
+            <alias key='&quot;brinjal_p&quot;' value='brinjal_production' />
+            <alias key='&quot;cabbage_p&quot;' value='cabbage_production' />
+            <alias key='&quot;flower_p&quot;' value='flower_production' />
+            <alias key='&quot;okra_p&quot;' value='okra_production' />
+            <alias key='&quot;onion_p&quot;' value='onion_production' />
+            <alias key='&quot;other_p&quot;' value='other_production' />
+            <alias key='&quot;peas_p&quot;' value='peas_production' />
+            <alias key='&quot;potato_p&quot;' value='potato_production' />
+            <alias key='&quot;sweet_potato_p&quot;' value='sweet_potato_production' />
+            <alias key='&quot;tapioca_p&quot;' value='tapioca_production' />
+            <alias key='&quot;tomato_p&quot;' value='tomato_production' />
+            <alias key='&quot;total_p&quot;' value='total_production' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Area &amp; Prod of Veg - All india' id='Area &amp; Prod of Veg - All india_319BDF774649445CA23E34AB188E1339'>
+            <properties context=''>
+              <relation connection='excel-direct.0t4vcv21jjbe2h1918zbn18iqfrg' name='Area &amp; Prod of Veg - All india' table='[&apos;Area &amp; Prod of Veg - All india$&apos;]' type='table'>
+                <columns gridOrigin='A1:Y11:no:A1:Y11:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Year' ordinal='0' />
+                  <column datatype='real' name='Brinjal Area (in &apos;000 Hectare)' ordinal='1' />
+                  <column datatype='real' name='Brinjal Production (in &apos;000 Tonne)' ordinal='2' />
+                  <column datatype='real' name='Cabbage Area (in &apos;000 Hectare)' ordinal='3' />
+                  <column datatype='real' name='Cabbage Production (in &apos;000 Tonne)' ordinal='4' />
+                  <column datatype='real' name='C.Flower Area (in &apos;000 Hectare)' ordinal='5' />
+                  <column datatype='real' name='C.Flower Production (in &apos;000 Tonne)' ordinal='6' />
+                  <column datatype='real' name='Okra Area (in &apos;000 Hectare)' ordinal='7' />
+                  <column datatype='real' name='Okra Production (in &apos;000 Tonne)' ordinal='8' />
+                  <column datatype='real' name='Peas Area (in &apos;000 Hectare)' ordinal='9' />
+                  <column datatype='real' name='Peas Production (in &apos;000 Tonne)' ordinal='10' />
+                  <column datatype='real' name='Tomato Area (in &apos;000 Hectare)' ordinal='11' />
+                  <column datatype='real' name='Tomato Production (in &apos;000 Tonne)' ordinal='12' />
+                  <column datatype='real' name='Onion Area (in &apos;000 Hectare)' ordinal='13' />
+                  <column datatype='real' name='Onion Production (in &apos;000 Tonne)' ordinal='14' />
+                  <column datatype='real' name='Potato Area (in &apos;000 Hectare)' ordinal='15' />
+                  <column datatype='real' name='Potato Production (in &apos;000 Tonne)' ordinal='16' />
+                  <column datatype='real' name='Sweet Potato Area (in &apos;000 Hectare)' ordinal='17' />
+                  <column datatype='real' name='Sweet Potato Production (in &apos;000 Tonne)' ordinal='18' />
+                  <column datatype='real' name='Tapioca Area (in &apos;000 Hectare)' ordinal='19' />
+                  <column datatype='real' name='Tapioca Production (in &apos;000 Tonne)' ordinal='20' />
+                  <column datatype='real' name='Others Area (in &apos;000 Hectare)' ordinal='21' />
+                  <column datatype='real' name='Others Production (in &apos;000 Tonne)' ordinal='22' />
+                  <column datatype='real' name='Total Area (in &apos;000 Hectare)' ordinal='23' />
+                  <column datatype='real' name='Total Production (in &apos;000 Tonne)' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Area vs production in Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Area &amp; Prod of Veg - All india!Print_Area_MI (AREA_AND_PRODUCTION_OF_VEGETABLES)' name='federated.0rut6sy02fdgax177n7bn08l8dgp' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='sweet_potato_area' caption='Crops_area' datatype='string' datatype-customized='true' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_a&quot;'>
+              <calculation class='tableau' formula='&quot;sweet_potato_a&quot;' />
+              <aliases>
+                <alias key='&quot;brinjal_a&quot;' value='brinjal_area' />
+                <alias key='&quot;cabbage_a&quot;' value='cabbage_area' />
+                <alias key='&quot;flower_a&quot;' value='flower_area' />
+                <alias key='&quot;okra_a&quot;' value='okra_area' />
+                <alias key='&quot;onion_a&quot;' value='onion_area' />
+                <alias key='&quot;other_a&quot;' value='other_area' />
+                <alias key='&quot;peas_a&quot;' value='peas_area' />
+                <alias key='&quot;potato_a&quot;' value='potato_area' />
+                <alias key='&quot;sweet_potato_a&quot;' value='sweet_potato_area' />
+                <alias key='&quot;tapioca_a&quot;' value='tapioca_area' />
+                <alias key='&quot;tomato_a&quot;' value='tomato_area' />
+                <alias key='&quot;total_a&quot;' value='total_area' />
+              </aliases>
+            </column>
+            <column alias='sweet_potato_production' caption='Crop_production' datatype='string' datatype-customized='true' name='[area (copy)_181269921317003265]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_p&quot;'>
+              <calculation class='tableau' formula='&quot;sweet_potato_p&quot;' />
+              <aliases>
+                <alias key='&quot;brinjal_p&quot;' value='brinjal_production' />
+                <alias key='&quot;cabbage_p&quot;' value='cabbage_production' />
+                <alias key='&quot;flower_p&quot;' value='flower_production' />
+                <alias key='&quot;okra_p&quot;' value='okra_production' />
+                <alias key='&quot;onion_p&quot;' value='onion_production' />
+                <alias key='&quot;other_p&quot;' value='other_production' />
+                <alias key='&quot;peas_p&quot;' value='peas_production' />
+                <alias key='&quot;potato_p&quot;' value='potato_production' />
+                <alias key='&quot;sweet_potato_p&quot;' value='sweet_potato_production' />
+                <alias key='&quot;tapioca_p&quot;' value='tapioca_production' />
+                <alias key='&quot;tomato_p&quot;' value='tomato_production' />
+                <alias key='&quot;total_p&quot;' value='total_production' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0rut6sy02fdgax177n7bn08l8dgp'>
+            <column datatype='real' name='[Brinjal Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Brinjal Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[C.Flower Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[C.Flower Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cabbage Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column caption='fllter_of_productions' datatype='real' name='[Calculation_181269921317588994]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[area (copy)_181269921317003265]&#13;&#10;WHEN &quot;brinjal_p&quot; THEN [Brinjal Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;flower_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;cabbage_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;okra_p&quot; THEN [Okra Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;onion_p&quot; THEN [Onion Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;peas_p&quot; THEN [Peas Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;potato_p&quot; THEN [Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;sweet_potato_p&quot; THEN [Sweet Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tapioca_p&quot; THEN [Tapioca Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tomato_p&quot; THEN [Tomato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;other_p&quot; THEN [Others Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;total_p&quot; THEN [Total Production (in &apos;000 Tonne)]&#13;&#10;END' />
+            </column>
+            <column caption='filter_of_areas' datatype='real' name='[Calculation_493425670369726467]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN &quot;brinjal_a&quot; THEN [Brinjal Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;flower_a&quot; THEN [C.Flower Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;cabbage_a&quot; THEN [Cabbage Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;okra_a&quot; THEN [Okra Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;onion_a&quot; THEN [Onion Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;peas_a&quot; THEN [Peas Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;potato_a&quot; THEN [Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;sweet_potato_a&quot; THEN [Sweet Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tapioca_a&quot; THEN [Tapioca Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tomato_a&quot; THEN [Tomato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;other_a&quot; THEN [Others Area (in &apos;000 Hectare)] &#13;&#10;WHEN &quot;total_a&quot; THEN [Total Area (in &apos;000 Hectare)]&#13;&#10;END' />
+            </column>
+            <column datatype='real' name='[Okra Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Okra Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Onion Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Onion Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Others Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Others Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Peas Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Peas Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Potato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Potato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sweet Potato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sweet Potato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tapioca Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tapioca Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tomato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tomato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_181269921317588994]' derivation='Sum' name='[sum:Calculation_181269921317588994:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_493425670369726467]' derivation='Sum' name='[sum:Calculation_493425670369726467:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Year:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <dropline drop-when='always' haslabel='true' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]</rows>
+        <cols>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]</cols>
+      </table>
+      <simple-id uuid='{FD209859-512D-48EA-9FEF-974AF308BD88}' />
+    </worksheet>
+    <worksheet name='Year vs Area'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Area &amp; Prod of Veg - All india!Print_Area_MI (AREA_AND_PRODUCTION_OF_VEGETABLES)' name='federated.0rut6sy02fdgax177n7bn08l8dgp' />
+            <datasource name='Parameters' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='sweet_potato_area' caption='Crops_area' datatype='string' datatype-customized='true' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_a&quot;'>
+              <calculation class='tableau' formula='&quot;sweet_potato_a&quot;' />
+              <aliases>
+                <alias key='&quot;brinjal_a&quot;' value='brinjal_area' />
+                <alias key='&quot;cabbage_a&quot;' value='cabbage_area' />
+                <alias key='&quot;flower_a&quot;' value='flower_area' />
+                <alias key='&quot;okra_a&quot;' value='okra_area' />
+                <alias key='&quot;onion_a&quot;' value='onion_area' />
+                <alias key='&quot;other_a&quot;' value='other_area' />
+                <alias key='&quot;peas_a&quot;' value='peas_area' />
+                <alias key='&quot;potato_a&quot;' value='potato_area' />
+                <alias key='&quot;sweet_potato_a&quot;' value='sweet_potato_area' />
+                <alias key='&quot;tapioca_a&quot;' value='tapioca_area' />
+                <alias key='&quot;tomato_a&quot;' value='tomato_area' />
+                <alias key='&quot;total_a&quot;' value='total_area' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0rut6sy02fdgax177n7bn08l8dgp'>
+            <column datatype='real' name='[Brinjal Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[C.Flower Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cabbage Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column caption='filter_of_areas' datatype='real' name='[Calculation_493425670369726467]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[Parameter 1]&#13;&#10;WHEN &quot;brinjal_a&quot; THEN [Brinjal Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;flower_a&quot; THEN [C.Flower Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;cabbage_a&quot; THEN [Cabbage Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;okra_a&quot; THEN [Okra Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;onion_a&quot; THEN [Onion Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;peas_a&quot; THEN [Peas Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;potato_a&quot; THEN [Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;sweet_potato_a&quot; THEN [Sweet Potato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tapioca_a&quot; THEN [Tapioca Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;tomato_a&quot; THEN [Tomato Area (in &apos;000 Hectare)]&#13;&#10;WHEN &quot;other_a&quot; THEN [Others Area (in &apos;000 Hectare)] &#13;&#10;WHEN &quot;total_a&quot; THEN [Total Area (in &apos;000 Hectare)]&#13;&#10;END' />
+            </column>
+            <column datatype='real' name='[Okra Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Onion Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Others Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Peas Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Potato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sweet Potato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tapioca Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tomato Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Area (in &apos;000 Hectare)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_493425670369726467]' derivation='Sum' name='[sum:Calculation_493425670369726467:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Year:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' scope='rows' value='true' />
+            <format attr='height' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' value='24' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' value='72' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' palette='red_green_white_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' />
+              <text column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]</rows>
+        <cols>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</cols>
+      </table>
+      <simple-id uuid='{1EA3BA20-53C1-4FC1-8DBB-1DA144EE67AF}' />
+    </worksheet>
+    <worksheet name='Year vs Production'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Area &amp; Prod of Veg - All india!Print_Area_MI (AREA_AND_PRODUCTION_OF_VEGETABLES)' name='federated.0rut6sy02fdgax177n7bn08l8dgp' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='sweet_potato_production' caption='Crop_production' datatype='string' datatype-customized='true' name='[area (copy)_181269921317003265]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_p&quot;'>
+              <calculation class='tableau' formula='&quot;sweet_potato_p&quot;' />
+              <aliases>
+                <alias key='&quot;brinjal_p&quot;' value='brinjal_production' />
+                <alias key='&quot;cabbage_p&quot;' value='cabbage_production' />
+                <alias key='&quot;flower_p&quot;' value='flower_production' />
+                <alias key='&quot;okra_p&quot;' value='okra_production' />
+                <alias key='&quot;onion_p&quot;' value='onion_production' />
+                <alias key='&quot;other_p&quot;' value='other_production' />
+                <alias key='&quot;peas_p&quot;' value='peas_production' />
+                <alias key='&quot;potato_p&quot;' value='potato_production' />
+                <alias key='&quot;sweet_potato_p&quot;' value='sweet_potato_production' />
+                <alias key='&quot;tapioca_p&quot;' value='tapioca_production' />
+                <alias key='&quot;tomato_p&quot;' value='tomato_production' />
+                <alias key='&quot;total_p&quot;' value='total_production' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0rut6sy02fdgax177n7bn08l8dgp'>
+            <column datatype='real' name='[Brinjal Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[C.Flower Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column caption='fllter_of_productions' datatype='real' name='[Calculation_181269921317588994]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Parameters].[area (copy)_181269921317003265]&#13;&#10;WHEN &quot;brinjal_p&quot; THEN [Brinjal Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;flower_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;cabbage_p&quot; THEN [C.Flower Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;okra_p&quot; THEN [Okra Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;onion_p&quot; THEN [Onion Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;peas_p&quot; THEN [Peas Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;potato_p&quot; THEN [Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;sweet_potato_p&quot; THEN [Sweet Potato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tapioca_p&quot; THEN [Tapioca Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;tomato_p&quot; THEN [Tomato Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;other_p&quot; THEN [Others Production (in &apos;000 Tonne)]&#13;&#10;WHEN &quot;total_p&quot; THEN [Total Production (in &apos;000 Tonne)]&#13;&#10;END' />
+            </column>
+            <column datatype='real' name='[Okra Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Onion Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Others Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Peas Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Potato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sweet Potato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tapioca Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tomato Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Production (in &apos;000 Tonne)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_181269921317588994]' derivation='Sum' name='[sum:Calculation_181269921317588994:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Year:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' value='72' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]' />
+              <text column='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]</rows>
+        <cols>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</cols>
+      </table>
+      <simple-id uuid='{91AA7C72-6437-4EA2-B3C0-0579C479CCDB}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='1800' maxwidth='1000' minheight='1800' minwidth='1000' sizing-mode='fixed' />
+      <datasources>
+        <datasource name='Parameters' />
+        <datasource caption='Area &amp; Prod of Veg - All india!Print_Area_MI (AREA_AND_PRODUCTION_OF_VEGETABLES)' name='federated.0rut6sy02fdgax177n7bn08l8dgp' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='sweet_potato_area' caption='Crops_area' datatype='string' datatype-customized='true' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_a&quot;'>
+          <calculation class='tableau' formula='&quot;sweet_potato_a&quot;' />
+          <aliases>
+            <alias key='&quot;brinjal_a&quot;' value='brinjal_area' />
+            <alias key='&quot;cabbage_a&quot;' value='cabbage_area' />
+            <alias key='&quot;flower_a&quot;' value='flower_area' />
+            <alias key='&quot;okra_a&quot;' value='okra_area' />
+            <alias key='&quot;onion_a&quot;' value='onion_area' />
+            <alias key='&quot;other_a&quot;' value='other_area' />
+            <alias key='&quot;peas_a&quot;' value='peas_area' />
+            <alias key='&quot;potato_a&quot;' value='potato_area' />
+            <alias key='&quot;sweet_potato_a&quot;' value='sweet_potato_area' />
+            <alias key='&quot;tapioca_a&quot;' value='tapioca_area' />
+            <alias key='&quot;tomato_a&quot;' value='tomato_area' />
+            <alias key='&quot;total_a&quot;' value='total_area' />
+          </aliases>
+          <members>
+            <member alias='brinjal_area' value='&quot;brinjal_a&quot;' />
+            <member alias='flower_area' value='&quot;flower_a&quot;' />
+            <member alias='cabbage_area' value='&quot;cabbage_a&quot;' />
+            <member alias='okra_area' value='&quot;okra_a&quot;' />
+            <member alias='onion_area' value='&quot;onion_a&quot;' />
+            <member alias='peas_area' value='&quot;peas_a&quot;' />
+            <member alias='potato_area' value='&quot;potato_a&quot;' />
+            <member alias='sweet_potato_area' value='&quot;sweet_potato_a&quot;' />
+            <member alias='tapioca_area' value='&quot;tapioca_a&quot;' />
+            <member alias='tomato_area' value='&quot;tomato_a&quot;' />
+            <member alias='other_area' value='&quot;other_a&quot;' />
+            <member alias='total_area' value='&quot;total_a&quot;' />
+          </members>
+        </column>
+        <column alias='sweet_potato_production' caption='Crop_production' datatype='string' datatype-customized='true' name='[area (copy)_181269921317003265]' param-domain-type='list' role='measure' type='nominal' value='&quot;sweet_potato_p&quot;'>
+          <calculation class='tableau' formula='&quot;sweet_potato_p&quot;' />
+          <aliases>
+            <alias key='&quot;brinjal_p&quot;' value='brinjal_production' />
+            <alias key='&quot;cabbage_p&quot;' value='cabbage_production' />
+            <alias key='&quot;flower_p&quot;' value='flower_production' />
+            <alias key='&quot;okra_p&quot;' value='okra_production' />
+            <alias key='&quot;onion_p&quot;' value='onion_production' />
+            <alias key='&quot;other_p&quot;' value='other_production' />
+            <alias key='&quot;peas_p&quot;' value='peas_production' />
+            <alias key='&quot;potato_p&quot;' value='potato_production' />
+            <alias key='&quot;sweet_potato_p&quot;' value='sweet_potato_production' />
+            <alias key='&quot;tapioca_p&quot;' value='tapioca_production' />
+            <alias key='&quot;tomato_p&quot;' value='tomato_production' />
+            <alias key='&quot;total_p&quot;' value='total_production' />
+          </aliases>
+          <members>
+            <member alias='brinjal_production' value='&quot;brinjal_p&quot;' />
+            <member alias='flower_production' value='&quot;flower_p&quot;' />
+            <member alias='cabbage_production' value='&quot;cabbage_p&quot;' />
+            <member alias='okra_production' value='&quot;okra_p&quot;' />
+            <member alias='onion_production' value='&quot;onion_p&quot;' />
+            <member alias='peas_production' value='&quot;peas_p&quot;' />
+            <member alias='potato_production' value='&quot;potato_p&quot;' />
+            <member alias='sweet_potato_production' value='&quot;sweet_potato_p&quot;' />
+            <member alias='tapioca_production' value='&quot;tapioca_p&quot;' />
+            <member alias='tomato_production' value='&quot;tomato_p&quot;' />
+            <member alias='other_production' value='&quot;other_p&quot;' />
+            <member alias='total_production' value='&quot;total_p&quot;' />
+          </members>
+        </column>
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.0rut6sy02fdgax177n7bn08l8dgp'>
+        <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+        <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='25500' id='3' name='Year vs Area' w='78600' x='3300' y='4167' />
+        <zone _.fcp.SetMembershipControl.false...type='paramctrl' _.fcp.SetMembershipControl.true...type-v2='paramctrl' h='6000' id='10' mode='compact' param='[Parameters].[Parameter 1]' w='16000' x='82417' y='18350' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='15556' id='8' mode='checklist' name='Year vs Area' param='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' w='16600' x='82200' y='1278' />
+        <zone h='26611' id='11' name='Year vs Production' w='77700' x='2600' y='31500' />
+        <zone _.fcp.SetMembershipControl.false...type='paramctrl' _.fcp.SetMembershipControl.true...type-v2='paramctrl' h='3722' id='13' mode='compact' param='[Parameters].[area (copy)_181269921317003265]' w='20900' x='78500' y='32944' />
+        <zone h='22778' id='14' name='Area vs production in Year' w='87300' x='2000' y='58500' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='26' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99112' id='25' param='vert' w='98400' x='800' y='444'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='15556' id='8' mode='checkdropdown' name='Year vs Area' param='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' w='16600' x='82200' y='1278'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='25500' id='3' is-fixed='true' name='Year vs Area' w='78600' x='3300' y='4167'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='paramctrl' _.fcp.SetMembershipControl.true...type-v2='paramctrl' h='6000' id='10' mode='compact' param='[Parameters].[Parameter 1]' w='16000' x='82417' y='18350'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='26611' id='11' is-fixed='true' name='Year vs Production' w='77700' x='2600' y='31500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='paramctrl' _.fcp.SetMembershipControl.true...type-v2='paramctrl' h='3722' id='13' mode='compact' param='[Parameters].[area (copy)_181269921317003265]' w='20900' x='78500' y='32944'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='22778' id='14' is-fixed='true' name='Area vs production in Year' w='87300' x='2000' y='58500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BDD7CDC9-A441-4558-8A71-56E1F04275D3}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='637' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='1' param='vert' removable='false' w='98426' x='787' y='830'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='4357' id='3' w='98426' x='787' y='830' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98426' x='787' y='5187' />
+            <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='83506' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='15664'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='This graph is useful to find variatiions in Area vs Year for different crops .I have found that in 2008-09 year Area of cultivation of every crop was higher than others ' captured-sheet='Year vs Area' id='1'>
+                    <capturedDeltas>
+                      <datasource name='Parameters'>
+                        <column alias='brinjal_area' name='[Parameter 1]' value='&quot;brinjal_a&quot;' />
+                      </datasource>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='This graph is useful to find variatiions in Production vs Year for different crops .I have found that in 2008-09 year Production of Crops for every crop was higher than others ' captured-sheet='Year vs Production' id='2'>
+                    <capturedDeltas>
+                      <datasource name='Parameters'>
+                        <column alias='brinjal_production' name='[area (copy)_181269921317003265]' value='&quot;brinjal_p&quot;' />
+                      </datasource>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='This graph gives the information of Production and Area for different Crops in selected year' captured-sheet='Area vs production in Year' id='3'>
+                    <capturedDeltas>
+                      <datasource name='Parameters'>
+                        <column alias='total_production' name='[area (copy)_181269921317003265]' value='&quot;total_p&quot;' />
+                      </datasource>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='This is the Final Dashboard For the Horiculture project which gives 1.Year vs Area for Every Crop      2.Year vs Production For Every Crop      3.Area vs Production  forEvery crop in Every Year' captured-sheet='Dashboard 1' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='6639' hidden='true' id='6' story-point-id='1' w='47244' x='10630' y='20436'>
+          <formatted-text>
+            <run fontsize='10'>2008-9 Year have high Area cultivation for Every Crop </run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'> &lt;[Parameters].[Parameter 1]&gt;</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='7469' hidden='true' id='7' story-point-id='2' w='46358' x='9744' y='19502'>
+          <formatted-text>
+            <run fontsize='10'>2008-09 Year have high Production of Crops for Every Crop </run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'><![CDATA[<[Parameters].[area (copy)_181269921317003265]>]]></run>
+          </formatted-text>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' h='6120' hidden='true' id='8' story-point-id='3' w='64961' x='10236' y='41286'>
+          <formatted-text>
+            <run fontsize='10'>This graph changes with over all year to show Production and Area of cultivation</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{6955AA35-54EB-4FA9-8AA4-053338AF01B9}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Year vs Area'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]' type='filter' />
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card pane-specification-id='0' param='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670369726467:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[:Measure Names]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Brinjal Area (in &apos;000 Hectare) (bin):qk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Calculation_493425670369726467:qk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Okra 2009-10 Area (in &apos;000 Hectare):nk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:State/Union Territory:nk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Brinjal Area (in &apos;000 Hectare):qk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Brinjal Production (in &apos;000 Tonne):qk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_493425670359642113:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A9CE0986-FC41-49E1-97FF-4AB309188D58}' />
+    </window>
+    <window class='worksheet' name='Year vs Production'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='194'>
+            <card mode='compact' param='[Parameters].[area (copy)_181269921317003265]' type='parameter' />
+            <card pane-specification-id='0' param='[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[:Measure Names]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{93979B24-380D-4099-AA6C-11061AD88C65}' />
+    </window>
+    <window class='worksheet' name='Area vs production in Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card mode='compact' param='[Parameters].[area (copy)_181269921317003265]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[none:Year:nk]</field>
+            <field>[federated.0rut6sy02fdgax177n7bn08l8dgp].[sum:Calculation_181269921317588994:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C965BD9D-6444-4839-AA2E-68F6B1B440D6}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Area vs production in Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Year vs Area'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Year vs Production'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{6017D0CB-5C5F-4FE2-85E4-0B30D8CE1B34}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{600B3B06-1DF1-4104-8EEF-E5F3D5792A25}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Area vs production in Year' width='192'>
+      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
+      p+k4AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAZTElEQVR4nO3d6W8ceX7f8Xdf7ObRPLrZvC+RokiRom5ppNmd8Vy7cTwDewMDXj8J1gsH
+      AeJFnKcBAuRB/oM4cIIggO0E62xgJ8jG2Jmde2c9o5E0GpKSSEokW2yefd/3XZUHFClRosSm
+      RFLU1Pf1hEd3ffvX3fXpOrq+VTpVVVWE0Cj9ix6AEC+SBEBomgRAaJoEQGiaBEBomgRAaJoE
+      QGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBomgRAaJoEQGiaBEBo
+      mgRAaNqOAViemyGRVwCYmZnZ8wGE1u7x9cSdPa8rRCV2DEBHZwuffvIFSf8C7kgRgCXnXTyB
+      KABh3xqTN6coKirJaJhcMc/SihuAYDAIQCmXJJrM4VtbYnr2HspDJ2K5PnEH78o8AIV0nGS2
+      wOLiMqpSYmbqFvFUDlBZcc0zM+dCzuEi9tKOATDVOWg2pvg/n07w1vdPc/PqF2BtZ/Hml/hT
+      Jcr6Kk4M9/HhR58xP3GVn//9L8kU15cY925dx58ucePKVyhKiq8nF+nvsJEtlO9XL5EvqfQ3
+      mrgXzBBZnua//fdfEEzm+fyTj+geGOY3n3yIUi5gsbbQUZPmtzfu7ePLIbSmom2A1955lYa6
+      Vow6WHZ7CbsX0FdbKWRifP3VVW5Nz5NOpwH44Xt/yMhANwAXX73ExLVvieZV7A12epqNTEze
+      Jp1bX5L458aJFo0UDVVcv3IVgMtv/lMunjyG3+fDeXcaa20DkeAa1ydu4lrzkUrE9+N1EBpV
+      UQB0RiNmowGAk8ePEUpkMFpqqTfryRWK6HUPylVVGTenM9Q0k/N8S33HccrZJCW9GaOawxtO
+      ADA+5+cnf/QuF1/7ATXq+v+qqqoAGOjvI1coYW1qQs1nKa0vVGQVSOwpnZwaUWiZ7AYVmiYB
+      EJomARCaJgEQmiYBeIndvXuXmG8JfyL/oofy0jLufBdxWBVjPj6Yz/P6yTxfTaxhtXfiXVnE
+      1thITAc/fPXyix7ioSe7QV9maoz335+mRvVQqu8g4V4jHQtR29rHmz96F5tBt3MNjZMAvNRK
+      hMNpbI3VTE3fpa3VQTyZo7GxgSaHXRbvFTiQACiKgl4vmxvi8DmQuVIWMuKwko9loWkSAKFp
+      e7Kd5HLOkldNmHVFinoLjjoTHn+YnmOj1FsMe/EQQuyLPdkITkaD+KJZqsgTS+apqathsL8V
+      lytJb58DRVHQ6WSXnJYVMzG+vnELnamOGlK4YyUG2ur48vo0/+Jf/SkLU+O4gzEaHZ2cGxs+
+      sHHtwRKgxLfjtzgyNIJRKZHPZmloqGZ6ag5HzwgGw/oSYOOn0CZjvY26Kj1dw0NkQ4sEMjFO
+      nz9PVrFQbTRiNRsplooYzVaMxoPbgbsHj2TkzXfe2fyrs7f/+UuK75zo4gzL8RK2dJygP05N
+      tYW1e/c4fuYMsWCIUpWFupo6LFUHO64D+R6gXC7LEkAcSvJlodh3f/H+X+96mlcGT/PKsTP7
+      MJqtJABi3/2nZwgA7/70QAIg3wMITZMACE2TAAhNkwAITZMACE2TAAhNkwAITZMACE2TAAhN
+      kwAITdvThphak0osU6aruU4aYsRLYU8C4Gi244tmKSklWi163Kk8Y2MDuFxBau83xEhjvNgN
+      RVEolUr7/jh72hBTSMZZyZRpa7ZKQ4x4Lnq9/kAaY/a4IaZj87/dz19YiH0nG8FC0yQAQtMk
+      AELTJABC0yQAQtMkAELTJABC0yr+HmBh4R7+FSeO/rMM9rbu55iEODAVLwFiwTXMTW2UC3JB
+      NvHdUXEAamvqWHHeRV9du5/jEeJAVRyAvGrEZCgRD0f2czxCHKiKtwFqTdAzdBZbU+N+jkeI
+      A1XxEiAciXDjym8IxVP7OR4hDlTFSwCTuYYf//N/SV21+bHbvMvzVDsGyEbWSORVeloaWFj1
+      MzQ8jEl2tIpDrOIAVBkUPvv4Q05f/D697fYtt9WaFCLZMrlEHEx1ePwRRgfbWVwN0ttlk4YY
+      sWuHriEmm8uTiHiIxLP0tm+9zWK2ANDR1UdgeYWc2UgymcZQVScNMeKZHLqGGFtbD52JOGbj
+      o5/kCmuRPKrJDw3V1LS0M9Bcz6onQG93/ba1gp5lAikFR62OmbkFTl38HrcnvuGN118HYGr8
+      OoWqhh2vFbVXdRadM3jjRY62NzIzN0tn1zAe7xL1TR2cPXmM2dtfkVV6OXP66W0+19//G0yn
+      fow1MceNCSevvXmBe3du0tTzKqePWvnyy29IK/C7b/3OU+uIg1PxGvpA/wBv/e6PKKaDj5Xo
+      HxxioK+b+qZmOlrt6Awmero7n1irut5GLOLB3mxHUfKEfRGKbFxETyWWyRH1r+w4pr2qc2Rw
+      FLWUxt5sJxEKY2pqwUKeXHF9ETx88ji5WGbHOidPnQTAZrejN0CzzU4ikaexwQyGahprjRhM
+      1TvWEQdn15uoe7EuX1dnBSCdUzhz/AiBeJaaqo2h6GizN+AOxA6sztzUOJMTkyyu+GhwNOO+
+      O00OM7l0gmAwxM0bN5iYnqL81Cplxm/NsTg3jd/ro8Fax5rHR4PNTikdw+/zE04XsZjlmiSH
+      SUXXCHPO3aUEHO0/Si6Xw2q17upBHr1G2NzUON5wkuMjI9xzLXN6pJ8bE1O0dPbhaKwjHnJT
+      13KENvv2q1B7XeewycRDlC1NqOkgi94kJwa7uDE5w4WL5zHo4O7tCVr6hrHX1zy1TiDgp6Wl
+      lVXXLGWzHVt1mUVvklOjgwQ9S8zMLzFwfIzuVvsz1wGVmZvjdA+dor7atO30g3/2+q5fg3/9
+      7k/583d/uuvpdquij6PujjY+/OhDvrryDe/9wT9jd7P/44bGzjF0//fWlhYA3njjjc3bHY7m
+      A6lTDvhRgoGKHuthptGxLX/nfvPpruvoHS1Y3nxn29vmv/0EZehHdBhVMr41vA4rQz01jE/7
+      OH+kxFrKgvubr3nnne2nByjnU/z689/ykz/+I4w1DThnprGMDpPxrZEdHcTR0cdJtUAg//TP
+      v53qrN76hkV/is6jZWD7ABxmFQXAYm3C3tLOOz8YYvreGu32kWd6sPQv/pbML/5219M5/uGD
+      famT/+Izsn/3P3ddx/6/f/VYndKd6V3VMI6ceGIAhoaGuAt4lp0MXrhE0nuPoKWZi2NtZP0z
+      WGrryaSfXt9gruNoXyegcHd6htfeepupG18yeOESG1shs8shXn312HPVKRZKnD5/jqmp27x2
+      +eKuXoNnEQ26+eLGNL//9vf4+f/9gJ/88Y/49JOrqBT5wQ/e4at//IKWagXzsdfpbdh59q54
+      G+DM2ChTsx66O5ue6wmInZS5vZgg553DYq5memISg9mCZ3GOYDBEynwEu+rn7IXLT62ST4Yp
+      5orccS5gMRq5efvuZr1gMERRKTA6uvNF6Haqc+zCq0SW73Hxwvm9egGeqsnRSYut7kEwSzky
+      6RRl3foFhjvbHMw7XeRLO2+rBgL+yneD1jU5uPyKg5s3x+lsa995AvGMDLzy2hubf20sa3v6
+      Bjf/5zi988xmttofrA4OPpj24WV3Q8POo6mkzsmzBzPzA/hXFwgFQiwurv+8sxiixV6DqbGF
+      YDCE0Wik6eg5jtmfvjoWDbq58u105QFQFAW9Xo/V+nJtUL5MFv7k35C+cXNX09ReOM3A3/zH
+      Lf+7Pbr77xla/+xPaP3Z1o3O2yO733ht/dlPH6uzl1q7B/iD7gEAjhxZ/8lg/4M7OJrp7t9m
+      wkesL0mWKg/AFx+/T8fAKJ0dcs43cfBSM04W/8Nf7Hq6I//+z6kbHXzs/xtLkooDYG+sxemc
+      w2Sux1pr2fVAhHge5USKxLXdLR03ptvOxpKk4gCkFTNNNVnCQR8DPZXtphTisIlNOZn6dw9W
+      GSsOQH9PB641I8eOVbCCJcQhVYwnCV2Z3Py7ot2ghVSYX/7q1yTjETz+8L4NToiDVlEAgoEA
+      9fWNpNNZLNWPr/97l+eJZcqEfG7uLa6QTUaZvjNLUdnz8QqxpypeBeru7iIYDG1720ZDTDmV
+      oxpwPaEhRlGeLRGPNkYctjrPcoCgqqr7VudZ7FUDyn7VKStPPxTxScpKeUudR9/zigKQKUJz
+      i4NLly6j36axZaMhplgqAmDQs21DjF7/bP2RjzZGHLY6Op3uCfd8Mp1Ot291nsVeNaDsVx2D
+      /tkaqgx6w5Y6j77nFc0B3R1tuO4tMD4+Tij66G6l9YaYctJPX3cHtfZWhgYGiKVVetvlSzNx
+      uFV8MNy77773hFvXG2I2tN0/b9bTGmKEOCzknA1C0yQAQtMkAELTJABC0yQAQtMkAELTJABC
+      0yQAQtMkAELTJABC0yQAQtMkAELT9jQAsZCfuYUl1HKRlVX3XpYWYl/saQCWlpewWq24FhZo
+      rNWx7E3sZXkh9tyenqv71NmLLEzPkK+uxmqtJZTMUy6XpSNsG9IRtrs6L7QjrFKe1SVKlhr6
+      W5uYcXoZGh7GcH8ZIx1hW0lH2O7q7FdH2J4GoLPnyObvJ0bkJLri8JO9QELTJABC0yQAQtMk
+      AELTJABC0yQAQtMkAELTJABC0yQAQtMkAELT9iUAEb+b6du3SeSe7QAmIQ7KvgQglspzYmyA
+      kDu4H+WF2DP7EgCzQWV6ao5ae+N+lBdiz+zp0aAbOvsGkJOji5eBTn2WLoxd2GiI0ev1lAN+
+      lEBg2/upqvrE4+FNJ8a23Gev6ijBAOWAf/uBqyo8qc7o1jqlJRdqOr19nSfQ1dZi7OvfUic7
+      ew8luf11bZ/0vPTWOqqHj265z5OuNv/U16ajjarOti332as6151PuL7vU17jLlsbnfYHdUqJ
+      FOk7zifUAZ7QSlE7Moixvm6zTjGeIj79oM6+BwDYDIDUOfx1DtNYDqLOgewG3XhgtVzEtbBI
+      WVXxrq1QKCnEwgFiySyqWibx0FW93asrFMsqkYCXUDRRcZ1cJsHymvexOt61ZcKx5JY6pUIW
+      19IqKiqrKyuUVQj63KRzRcIBL97A/UvCqgoryysoKpQLWWLJzJY6G4+pKiWWV9ZQYXNcqGXC
+      4djmuNdPFlBmYW6O0CPjeVodn3uZZbfvkToQ8K6RSOe21ImG/AQicQrZJN5AeEu9oM9NPJVd
+      f7x0Al8wSiToY25ujmQmv2UmeVKdfCbJ3NwcvmBkS51yMYdrcQWVrZ1XAe8a0USGdCJKMJqg
+      XMyx6vaBWmbR5aJYXv8MTsbChGNJ8tkka97AlucEKp6VJVLZwuZ7vTEupZRn6f7zA8hnkuSK
+      yua4Hq6jlAosuJZQ1PV540CWABtSiTh68txzrtHQ3U8u6kdVdYCCw9aIJ5JgbPgYCe8yKXMT
+      iVCQthY7HreHkdGRiuq0tbUR83pwDI1Q9j+o09PVhtPp4tSpsc06iVgMJR3EGSozcKSDkGcZ
+      xWSHYoLe3h7m552cOnWKtUUndXYHwXAKCmkUPQw9dFmoWCxGzOshrTfQ3drE2pKH2o4+ctEg
+      1SaIZRVOjg6xMD+Lo7meQCCGO6Fw6ewIZqO+ojrRkJdjY+ew1ddu1nG748SLRYaPDdJYV72l
+      jsftwWDQY9FDWtXR1dqExx0knC4yMjxIU30ts7OzmIDu4WHia4uYbN001hh3rBNO6eltseDy
+      JDja17FZJ6uU6GquI1K2099uvV+lRCyWw+1ZwXB/JtQDzfUmlgJZuvq6CPkjjAz1Mzs7C6yv
+      zdRXKZjahmmuuT/jFrKkirC27EKvNwEKOsCih1hZx9GOenxxEwM9zSzPXEVtO0cu6Np8flX3
+      R5NMxNAraZzOEC0DRw72izC9WmbZn6a3rYkaqxWjEUymKkwmE/aWNqoMOiJBH4FwklqrFZMe
+      IgEP7T19FdcpZJIYGprJh7fWScej6IxVW+qUSznCpWparCasViv6cgajpRajyUQhm6as6PB6
+      VollylitVgoxN5FkjsD9T5UNG49pMRrX75dKrY9LV8DjjxDyB1hddlFQTVittegsDl4/P4xz
+      br6yOkYdr7z6Gp7lRdwP1UlFwnQNHMO3trKlTizko7WrF6PJRE2ViQLr9fLxIO1HBvG7XbiW
+      VjEZTViMJsqoRDOlLTP/0+ooxTxLyx76ehxb6lRVW/BH05h1DzfFGwh4lujpO4rRZMJoMqE3
+      mbDWWijqqoj6/VQZFJbdPkwmEyaTCVtjHX5/cHPJAKAzGFh1uegfHNx8rzfGZW+24fb4ScTC
+      ePwh2tvaAR56flvedNbCJTpbrNRarQcbgGQ6hV4pQEML0aVZGpu7MBvKmGus+D2rZNNpahpb
+      ODoyhNc5g621hUy2SDwWq7hOOpMhk4xjtbc9VKeVWDyF1Vq3pU46naGUS2NvbcU5M0Nr/1kM
+      WS91DTbisRi1VittHd0cP9rN7MwsfSPneeX8KUaGjm6tc/8x21qbmZld4vilS+vjau3j0uVX
+      OHVyhO7efvo6bMw4vbQ1m5mbd9La0VlZneY2XM456hptdD5U5/T3L5PxuLC3tD9URSGTzRGP
+      xWi01hAtGzjetV5v+JXXKIdXaGrppr+vm4Y6C1mDiapCGkdbzyPv1pPrdPV00GCzY9SbttRp
+      qbeiqnoaGq0PypSyZIs6YrEodRYTBpOFVlsDTm+WsYEWVFWlqbmN3s42aswGDOYaDHoDNa19
+      tFsfNMIX0gkUg5FYLLX5Xm+Mq7HKQFlXw8mxITpabaz646Qj3s1xVT/0rFLpNJRyWOyteJ0z
+      B7sKJMRhI8cCCU2TAAhNkwAITZMACE2TAAhNkwAITZMACE2TAAhNkwAITZMACE2TAAhNe2IA
+      8gk/88vrx2QvzM6QLe3hIUOlFB9//Dk3vrnG4tr2nV2Punbt6lNvj4fDbByDODE+8ZwDFFrx
+      xACY61uYvPYFqlLg5l0X1UYdId8ac671Q29zqRgTExPEUzkoZQnH0ywuLgIQDwfJlwFUQqEQ
+      qXiIyZu3yRXuH5haSpEsmrlw8RK3x6+STUZJ54osLq2gKiVmbt8imlxv2simYkzevIXHHyQd
+      D5MuKJuPh6owO32bQCTGB3/3v7gyPk4wmqS3rxeARCTA1J15FHU9IJFIgJnZhf17NcVL5ymr
+      QDpePzPAX/6Xv+bi77xN0ufk1lKMRl2MK5P3SGULnDp1ks8//RhSPv7yv/4Vi9714+R1+SBX
+      JuZJuO9wZzXJJ5//I2OjQ2TSW/tdS4UMZdWAb36Cv/r53xPNFPn41+/TfXSY67/5iEw+xa8+
+      vsLY2Ch6VJanr7EcKUDKx7XpZT77+ANaeo5iRKGn5winzp3D0WTl2vVrFJM+fnNjnoEuGx9/
+      9iXT166wmihiSS0y5d6+71Zoz1O3AdqPnaOjzUG3rQa3y0k6m2UtkqfOrHJ74gYTkzc32/rG
+      LrzGW6+eBaC+Y4SMf57rt5e5dPoIJ471c+PbcYKRB5dNXVt0MnV3gffe+z0AXvvhe5wdGaCM
+      kfoaM0cc1Sw4F2g+cgKjwUjVNhdey5d02OprsNlsj90W9SzScXSEmvpmyoUEYKS3r5PammoK
+      hee/iqH4bthxI9hiMQPQf+I8hdh666HN1kQ2m0Wv06939gNVVVu7rezVBmJqFVU6yOTzmIxG
+      fP4HZ2DoOjLImVNjVN1vCdyY3tFUy7Xr3zAfgZHjQ0Tv3WBycpJ4Jk9LexdzN69za3oOgM6W
+      Jq5eu86ca5negTau/fZrIon1fl1H/0m8M19z/drXNLf3PefLJL6rpCFGaJrsBhWaJgEQmiYB
+      EJomARCaJgF4Cc3evUs2EWLFG37RQ3npyV6gl9DK7ASfj7v44RsXmHe6aOnsIxtegyoriwtO
+      Lr35T+hqrn/Rw3wp7Mvp0cX+6hkaodkZIe524k8oNFjWWHD70Sshau3dMvPvgiwBXkoK4XAc
+      W1M9s3fv0N7dR8DnxW6zozOasDVKACr1Up0eXYi9diBzpSxkxGElH8tC0yQAQtMkAELTZDeo
+      2FeT33xFMKnjnbe/R9i9xOQdN2dG2pm846K1tRm/L0i9vY1L58Z2LrYPZAkg9lVvby81tdXo
+      AEdnH1aTnnIhRyabIRGJkikpLK+4Xtj4ZAkg9lGJ//fLX3H83PcIh8NkE2Emb02iGkeoqbWi
+      WmpoNRpQTI4XNsID+R6gXC5jMBh2vqP4zvJ6PbS3d7zoYTxGAiD2xZ1VJ6FEZFfTdNnb6X/s
+      WmX7S1aBxL74zx/+Dz6a/O2upvnTt3/Mv/3Dn+3TiLYnG8FC0yQAQtMkAELTJABC054rAIpS
+      plgsoaoqhWIRVVUp3v9ZLpUoK8pejVOIffFce4ECPg9rq36aWhooZjNUmetJ5vPUVFvIRCPo
+      zbWcGB3aq7EKseeeKwCWqirqHQ4olxgaHuDq57c5+dZl/K5p6uo7gDSqoqAoivQEaIyq7P79
+      VlSVUulgz9v6XAFwezwYzVYabLVMT7sYfWUU1/Q0jvYukqE1DNVN6PR69KoqX4RpjE6v2/U0
+      ep0O4zYnQd5Pz/VooyfPbP7e7GgH4OTJ9aP62h1Nz1NaiAMhe4GEpkkAhKZJAISmSQCEpkkA
+      hKZJAISmSQCEpkkAhKbt+EWYUi6jqAplVYfZJA1k4rtlxzl6euom0WiEsqGOt16/fBBjEuLA
+      7BiArjYHGaWKNlvDQYxHiAO14zaAx+shHQuSypcPYjxCHKgdA1BrrsLj8ZDJ5Q9iPEIcqP8P
+      dy03XwDcjQcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYB
+      CKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQ
+      mgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJ
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYB
+      CKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp/wdAirqAdKAMJAAAAABJRU5E
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Year vs Area' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Year vs Production' width='192'>
+      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
+      IC9SPh7N5jMAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
